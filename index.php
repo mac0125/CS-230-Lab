@@ -3,7 +3,9 @@
 
     <div class="about">
         <h1>About Us</h1>
-        <p>Explain in a paragraph</p>
+        <p>With the massive amount of flims and tv shows in the Marvel Cinematic Universe (MCU), people need some help deciding which to watch. 
+            Due to our love a deep understanding of the MCU, we write reviews of the flims and tv shows. 
+            As new flims and tv episodes come out they will be added.</p>
     </div>
 
     <div class="row">
