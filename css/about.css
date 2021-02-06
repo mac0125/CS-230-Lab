@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New';
+    text-align: center;
+}
+
+p {
+    color: rgb(65, 66, 66);
+}
+
+.about {
+    background: #f0131e;
+    padding: 8px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.column {
+    float: left;
+    margin-right: 20px;
+    margin: 20px;
+    width: 22%;
+}
+
+.card {
+    box-shadow: 0px 4px 8px 0 #b3b3b3f5;
+    padding: 0 20px 0 20px;
+}
