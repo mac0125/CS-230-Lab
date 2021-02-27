@@ -23,9 +23,10 @@ if(isset($_POST['login-submit'])){
         $data = mysqli_fetch_assoc($result);
 
         if(empty($data)){
-            header("Location: ../login.php?error=userDNE");
+            header("Location: ../login.php?error=UserDNE");
             exit();
         }else{
+            
             $pass_check = password_verify($passw, $data['password']);
             if ($pass_check == true) {
                 session_start();
@@ -33,7 +34,10 @@ if(isset($_POST['login-submit'])){
                 $_SESSION['fname'] = $data['fname'];
                 $_SESSION['uname'] = $data['uname'];
 
-                echo "<h1>Success!</h1><p>$uname</p>";
+                // echo print(isset($_SESSION['uid']));
+                // echo "<h1>implode($data)</h1><p>$uname</p>";
+                header("Location: ../profile.php?success=login");
+                exit();
             }else{
                 header("Location: ../login.php?error=WrongPass");
                 exit();                

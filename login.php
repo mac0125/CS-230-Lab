@@ -30,8 +30,7 @@ require 'includes/header.php';
                         autofocus>
 
                     <label for="inputPassword" class="sr-only">Password</label>
-                    <input type="password" id="inputPassword" class="form-control" name="password"
-                        placeholder="Password" required>
+                    <input type="password" id="inputPassword" class="form-control" name="password" placeholder="Password" required>
 
                     <button class="btn btn-lg btn-outline-danger btn-block" name="login-submit" type="submit">Sign
                         In</button>

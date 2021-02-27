@@ -1,0 +1,20 @@
+.center-me {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    text-align: "center";
+}
+
+
+#prof_display{
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    border-radius: 70%;
+}
+
+#uname-style{
+    margin: auto;
+    font-weight: bold;
+}
