@@ -1,55 +1,17 @@
-<body>
-    <link rel="stylesheet" href="css/about.css">
-
-    <div class="about">
-        <h1>About Us</h1>
-        <p>Explain in a paragraph</p>
+<h5 style="text-align: center;">No Reviews Yet! Be the First!</h5>
+<div class="card mx-auto" style="width: 30%; padding: 5px; margin-bottom: 10px;">
+    <div class="media">
+        <img class="mr-3" src="'.$picpath.'" style="max-width: 75px; max-height: 75px; border-radius: 50%;">
+        <div class="media-body">
+            <h5 class="mt-0">$row['$uname']</h5>
+            <p>'.$row['$revdate'].'</p>
+            <p>'.$row['reviewtext'].'</p>
+        </div>
     </div>
+</div>
 
-    <div class="row">
-        <div class="column">
-            <div class="card">
-                <img src="images/TonyStark.jpeg">
-                <div class="container">
-                    <h2>Founder</h2>
-                    <p>Anthony Stark</p>
-                    <p>Email: thestark1@starkindustries.com</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="images/DaisyJohnson.webp">
-                <div class="container">
-                    <h2>Head Website and Social Media Manager</h2>
-                    <p>Daisy Johnson</p>
-                    <p>Email: daisyj1988@starkindustries.com</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="images/Shuri.jpeg">
-                <div class="container">
-                    <h2>Head Editor</h2>
-                    <p>Shuri</p>
-                    <p>Email: shurilab@starkindustries.com</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="images/PeterParker.jpeg">
-                <div class="container">
-                    <h2>Head Reviewer</h2>
-                    <p>Peter Parker</p>
-                    <p>Email: peteparker2000@starkindustries.com</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</body>
+<div class="container" style="text-align: center;">
+    <h1>'.$avg.'</h1>
+    <div class="container" style="margin-bottom: 10px;">'.stars($avg).'</div>
+    <p>Number of Ratings: '.round($row2['Total'].'</p>
+</div>
